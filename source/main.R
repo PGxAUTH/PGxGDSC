@@ -16,7 +16,7 @@ dataset <- GDSC2
 tissue <- "BRCA"
 core_geneset <- list()
 
-getScript("CN", "DEPMAP")
+getScript("MUTATIONS", "COSMIC")
 
 #### Clear all to Search for a new drug_name / dataset / tissue
 rm(list=setdiff(ls(), c("getScript", "GDSC1", "GDSC2", "compounds_annotation", "CCLE_exp", "CCLE_mutations", "CCLE_CN", "COSMIC_exp", "COSMIC_mutations", "COSMIC_CNVs")))

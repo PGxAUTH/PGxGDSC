@@ -7,9 +7,9 @@ R scripts and data for pharmacogenomic analysis of cancer drug resistance
 Download the data files from below links and the the R scripts found in **PGxGDSC/source/**. Set working directory to the directory where you have the data files and the R scripts saved.
 
 **Drugs related data files**
-1. [GDSC1-dataset](ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/GDSC1_fitted_dose_response_25Feb20.xlsx)
-2. [GDSC2-dataset](ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/GDSC2_fitted_dose_response_25Feb20.xlsx)
-3. [Compounds-annotation](ftp://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/screened_compunds_rel_8.2.csv)
+1. [GDSC1-dataset](http://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/GDSC1_fitted_dose_response_25Feb20.xlsx)
+2. [GDSC2-dataset](http://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/GDSC2_fitted_dose_response_25Feb20.xlsx)
+3. [Compounds-annotation](http://ftp.sanger.ac.uk/pub/project/cancerrxgene/releases/current_release/screened_compunds_rel_8.2.csv)
 4. [list of all annotated models](https://cog.sanger.ac.uk/cmp/download/model_list_20210719.csv)
 
 **COSMIC Cell Lines Project data files**

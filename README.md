@@ -52,7 +52,7 @@ then, insert a new *drug_name*, *dataset* or *tissue* and run `getScript(x, y)`.
 
 Internet connection is required in order to download the data files and to run `source("KEGG.R")` and `source("pathway_interactions.R")`.
 
-
+**Citation**: The work has been submitted for publication and is currently under review.
 
 
 

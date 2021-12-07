@@ -33,17 +33,22 @@ The scripts loads the data files in the R workspace. This might take a while, so
 
 ### 3.Run PGxGDSC/source/main.R
 Open the main.R script and configure the following parameters appropriately.
-`drug_name <- `: Insert drug name as referenced in Genomics of Drug Sensitivity in Cancer database e.g. `drug_name <- "Afatinib"`.
 
-**`dataset <- <dataset>`** 
+**A. `drug_name <- <drug.name`**
+
+*`<drug.name`: Insert drug name as referenced in Genomics of Drug Sensitivity in Cancer database e.g. `drug_name <- "Afatinib"`.*
+
+**B. `dataset <- <dataset>`** 
 
 *`<dataset>`: Insert Genomics of Drug Sensitivity in Cancer dataset of choice for the analysis. Available options are `dataset <- GDSC2` and `dataset <- GDSC1`.*
 
-**`tissue <- <tissue>`**
+**C. `tissue <- <cancer.tissue>`**
 
-*`<tissue>`: Insert TCGA classification for the tissue you are running the analysis e.g. `tissue <- "BRCA"` (BRCA is the TCGA classification for Breast invasive carcinoma)*
+*`<cancer.tissue>`: Insert TCGA classification for the tissue you are running the analysis e.g. `tissue <- "BRCA"` (BRCA is the TCGA classification for Breast invasive carcinoma)*
 
-`getScript(x, y)`: Choose the type (*x*) and the source (*y*) of the data to be analyzed. Options for *x* are *"MUTATIONS"* (mutation data), *"EXPRESSION"* (gene expression data) and *"CN"* (copy number data). Options for *y* are *"COSMIC"* (COSMIC Cell Lines Project) and *"DEPMAP"* (DepMap/CCLE). e.g. `getScript("MUTATIONS", "COSMIC")`
+**D.`getScript(x, y)`** 
+
+Choose the type (*x*) and the source (*y*) of the data to be analyzed. Options for *x* are *"MUTATIONS"* (mutation data), *"EXPRESSION"* (gene expression data) and *"CN"* (copy number data). Options for *y* are *"COSMIC"* (COSMIC Cell Lines Project) and *"DEPMAP"* (DepMap/CCLE). e.g. `getScript("MUTATIONS", "COSMIC")`
 
 If you want to run the analysis for another *drug_name*, *dataset* or *tissue*, you need first to run the command
 

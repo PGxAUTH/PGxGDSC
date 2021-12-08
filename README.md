@@ -29,7 +29,7 @@ The CCLE data are available through DepMap and can be downloaded following the l
 3. [CCLE_gene_cn](https://ndownloader.figshare.com/files/29125230)
 
 ### 2.Run PGxGDSC/source/uploads_edits.R
-The scripts loads the data files in the R workspace. This might take a while, so be patient.
+The script loads the data files in the R workspace. This might take a while, so be patient.
 
 ### 3.Run PGxGDSC/source/main.R
 Open the main.R script and configure the following parameters appropriately.
